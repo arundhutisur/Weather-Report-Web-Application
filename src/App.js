@@ -1,7 +1,6 @@
 import './App.css';
 //Anindya Maitra
 //Sohini Sarkar
-//Dipnita
 function App() {
   return (
     <div className="App">
@@ -27,6 +26,5 @@ function App() {
     </div>
   );
 }
-
+//Dipnita
 export default App;
-//D
