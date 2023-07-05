@@ -1,6 +1,7 @@
 import './App.css';
 //Anindya Maitra
 //Sohini Sarkar
+//Arundhuti Sur
 function App() {
   return (
     <div className="App">
