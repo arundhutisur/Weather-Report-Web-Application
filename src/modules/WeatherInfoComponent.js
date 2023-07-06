@@ -7,7 +7,8 @@ export const WeatherInfoIcons = {
     sunrise: "/icons/temp.svg",
     humidity: "/icons/humidity.svg",
     wind: "/icons/wind.svg",
-    pressure: "/icons/pressure.svg",
+    min_temp: "/icons/mintemp.svg",
+    max_temp: "/icons/mintemp.svg"
 };
 const Location = styled.span`
   margin: 15px auto;
@@ -106,11 +107,12 @@ const WeatherComponent = (props) => {
 
             <WeatherInfoLabel>Weather Info</WeatherInfoLabel>
             <WeatherInfoContainer>
-                <WeatherInfoComponent name={isDay ? "sunset" : "sunrise"}
-                                      value={`${getTime(weather?.sys[isDay ? "sunset" : "sunrise"])}`}/>
+                <WeatherInfoComponent name={"min_temp"} value={`${Math.floor(weather?.main?.temp_min-273)}°C`}/>
+                <WeatherInfoComponent name={"max_temp"} value={`${Math.floor(weather?.main?.temp_max-273)}°C`}/>
+                <WeatherInfoComponent name={"sunrise"} value={`${getTime(weather?.sys["sunrise"])}`}/>
+                <WeatherInfoComponent name={"sunset"} value={`${getTime(weather?.sys["sunset"])}`}/>
                 <WeatherInfoComponent name={"humidity"} value={weather?.main?.humidity}/>
                 <WeatherInfoComponent name={"wind"} value={weather?.wind?.speed}/>
-                <WeatherInfoComponent name={"pressure"} value={weather?.main?.pressure}/>
             </WeatherInfoContainer>
         </>
     );
