@@ -30,7 +30,7 @@ const SearchBox = styled.form`
   }
 `;
 const ChooseCityLabel = styled.span`
-  color: black;
+  color: #282c34;
   margin: 10px auto;
   font-size: 18px;
   font-weight: bold;

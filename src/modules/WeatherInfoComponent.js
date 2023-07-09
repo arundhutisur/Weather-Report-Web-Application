@@ -11,13 +11,16 @@ export const WeatherInfoIcons = {
     max_temp: "./icons/mintemp.svg"
 };
 const Location = styled.span`
-  margin: 15px auto;
+  margin: 14px auto;
   text-transform: capitalize;
-  font-size: 28px;
+  font-size: 30px;
+  color:  #0a0a7a;
   font-weight: bold;
+  font-family: Georgia;
+  font-style: italic;
 `;
 const Condition = styled.span`
-  margin: 20px auto;
+  margin: 10px auto;
   text-transform: capitalize;
   font-size: 14px;
   & span {
@@ -25,12 +28,12 @@ const Condition = styled.span`
   }
 `;
 const WeatherInfoLabel = styled.span`
-  margin: 20px 25px 10px;
+  margin: 20px 20px 10px;
   text-transform: capitalize;
   text-align: start;
-  width: 90%;
+  width: 85%;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
 `;
 const WeatherIcon = styled.img`
   width: 100px;

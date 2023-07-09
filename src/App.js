@@ -37,7 +37,7 @@ const Container = styled.div`
 const AppLabel = styled.span`
   color: black;
   margin: 20px auto;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
 `;
 const CloseButton = styled.span`
