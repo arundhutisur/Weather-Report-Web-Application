@@ -19,6 +19,8 @@ export const WeatherIcons = {
   "10n": "./icons/rain-night.svg",
   "11d": "./icons/storm.svg",
   "11n": "./icons/storm.svg",
+  "50d":"./icons/haze.png",
+  "50n":"./icons/mist.png",
 };
 
 const Container = styled.div`
