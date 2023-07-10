@@ -19,6 +19,10 @@ export const WeatherIcons = {
   "10n": "./icons/rain-night.svg",
   "11d": "./icons/storm.svg",
   "11n": "./icons/storm.svg",
+  "13d": "./icons/snow.png",
+  "13n": "./icons/snow.png",
+  "50d": "./icons/mist.png",
+  "50n": "./icons/mist.png"
 };
 
 const Container = styled.div`
@@ -29,16 +33,19 @@ const Container = styled.div`
   padding: 20px 10px;
   margin: auto;
   border-radius: 4px;
-  box-shadow: 0 3px 6px 0 #555;
+  box-shadow: 0 4px 6px 0 #555;
   background: white;
   font-family: Montserrat;
 `;
 
 const AppLabel = styled.span`
   color: black;
-  margin: 20px auto;
+  margin: 30px auto;
+  margin-bottom: 10px;
   font-size: 25px;
   font-weight: bold;
+  display: inline-block;
+  
 `;
 const CloseButton = styled.span`
   padding: 2px 3px;

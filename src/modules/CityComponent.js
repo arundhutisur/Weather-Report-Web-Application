@@ -5,13 +5,13 @@ const SearchBox = styled.form`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 20px;
+  margin: 40px;
   border: black solid 1px;
   border-radius: 2px;
 
   & input {
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
     outline: none;
     font-family: Montserrat;
@@ -36,8 +36,8 @@ const ChooseCityLabel = styled.span`
   font-weight: bold;
 `;
 const WelcomeWeatherLogo = styled.img`
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   margin: 40px auto;
 `;
 const CityComponent = (props) => {

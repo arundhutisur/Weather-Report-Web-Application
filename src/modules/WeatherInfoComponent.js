@@ -11,7 +11,7 @@ export const WeatherInfoIcons = {
     max_temp: "./icons/mintemp.svg"
 };
 const Location = styled.span`
-  margin: 14px auto;
+  margin: 18px auto;
   text-transform: capitalize;
   font-size: 30px;
   color:  #0a0a7a;
@@ -28,7 +28,7 @@ const Condition = styled.span`
   }
 `;
 const WeatherInfoLabel = styled.span`
-  margin: 20px 20px 10px;
+  margin: 20px 10px 10px;
   text-transform: capitalize;
   text-align: start;
   width: 85%;
@@ -38,12 +38,12 @@ const WeatherInfoLabel = styled.span`
 const WeatherIcon = styled.img`
   width: 100px;
   height: 100px;
-  margin: 5px auto;
+  margin: 3px auto;
 `;
 const WeatherContainer = styled.div`
   display: flex;
   width: 100%;
-  margin: 30px auto;
+  margin: 20px auto;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
