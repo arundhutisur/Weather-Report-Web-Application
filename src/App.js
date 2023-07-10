@@ -23,8 +23,8 @@ export const WeatherIcons = {
   "13n": "./icons/snow.png",
   "50d": "./icons/mist.png",
   "50n": "./icons/mist.png",
-  "50d":"./icons/haze.png",
-  "50n":"./icons/mist.png",
+  "51d":"./icons/haze.png",
+  "51n":"./icons/haze.png",
 };
 
 const Container = styled.div`
@@ -35,7 +35,7 @@ const Container = styled.div`
   padding: 20px 10px;
   margin: auto;
   border-radius: 4px;
-  box-shadow: 0 4px 6px 0 #555;
+  box-shadow: 0 2px 6px 0 #111;
   background: white;
   font-family: Montserrat;
 `;

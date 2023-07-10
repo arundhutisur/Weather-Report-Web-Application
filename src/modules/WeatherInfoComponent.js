@@ -12,6 +12,7 @@ export const WeatherInfoIcons = {
 };
 const Location = styled.span`
   margin: 18px auto;
+  margin-top: 10px;
   text-transform: capitalize;
   font-size: 30px;
   color:  #0a0a7a;
