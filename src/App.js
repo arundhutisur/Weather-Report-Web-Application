@@ -22,7 +22,7 @@ export const WeatherIcons = {
   "13d": "./icons/snow.png",
   "13n": "./icons/snow.png",
   "50d": "./icons/mist.png",
-  "50n": "./icons/mist.png"
+  "50n": "./icons/mist.png",
   "50d":"./icons/haze.png",
   "50n":"./icons/mist.png",
 };
