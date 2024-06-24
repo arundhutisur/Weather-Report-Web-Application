@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url("/workspaces/Weather-Report-App/public/W6.jpg");
+  background-image: url("W6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
